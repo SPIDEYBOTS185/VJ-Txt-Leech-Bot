@@ -133,4 +133,3 @@ async def upload(bot: Client, m: Message):
     await m.reply_text("**✅ Task Completed!**")
 
 bot.run()
-bot.run()
