@@ -10,9 +10,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # Load API credentials
-API_ID = int(os.getenv("API_ID", "24930837"))
-API_HASH = os.getenv("API_HASH", "3ed76c228ff85f369d1b3f9cf77cc9f8")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7490925963:AAERORe7zOZrFoZ5Oq8deZvntiWkMXj22RM")
+API_ID = int(os.getenv("API_ID", ""))
+API_HASH = os.getenv("API_HASH", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 bot = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
